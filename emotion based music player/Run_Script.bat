@@ -1,2 +1,2 @@
-"C:\Users\gouth\anaconda3\pkgs\python-3.9.7-h6244533_1\python.exe" "C:\Users\gouth\emotion based music player\capture.py"
+"C:\Users\Goutham Reddy\AppData\Local\Programs\Python\Python39\python.exe" "C:\xampp\htdocs\emotion based music player\capture.py"
 pause
