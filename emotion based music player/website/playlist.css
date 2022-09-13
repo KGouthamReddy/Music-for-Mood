@@ -1,0 +1,123 @@
+body{
+	padding: 0px;
+	background-attachment: fixed;
+	height:100%;
+	background: #0F2027; 
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	color: #fff;
+  	background-color: #2196f3;
+  	box-shadow: 0 0 20px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  	transition-delay: 0.5s;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  z-index: 1000;
+  position: fixed;
+}
+header .logo{
+  position: relative;
+  font-size: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-family: poppins;
+
+  display: inline-block;
+  overflow: hidden;
+  transition: 0.2s;
+
+}
+header .logo:hover{
+  color: #fff;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0.5s;
+}
+header .toggle{
+  max-width: 60px;
+  cursor: pointer;
+}
+header .toggle a{
+  position: relative;
+  font-size: 1.4em;
+  font: bold;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: transparent;
+
+  display: inline-block;
+  overflow: hidden;
+  transition: 0.2s;
+}
+header .toggle a:hover{
+  color: #fff;
+  background-color: #adf802;
+  box-shadow: 0 0 10px #adf802, 0 0 40px #adf802, 0 0 80px #adf802;
+  transition-delay: 0.5s;
+}
+
+
+.song{
+	margin: 25px;
+	width: 328px;
+	height: 330px;
+	background-color: #fff;
+	float: left;
+	border-radius: 10%;
+ 	word-wrap: break-word;
+ 	overflow: hidden;
+ 	z-index: 2;
+ 	border-bottom: 20px;
+}
+.song:hover{
+	box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);
+    transform: scale(1.05,1.05);
+    opacity: 1;
+}
+
+#data{
+	color: #000;
+	width: auto;
+	height: auto;
+	margin-top: 10px;
+	padding-bottom: 10px;	
+	z-index: 2;
+	font-size: 20px;
+	font-family: "Monotype Corsiva Italic";
+
+}
+#pic{
+	background-image: url("E:\\Imagere\\2.jpg");
+	background-size: 100% 100%;
+	height: 200px;
+	width: auto;
+	border: 20px;
+	border-bottom: 20px;
+	z-index: 2;
+
+}
+#first{
+	width: 97.1%;
+	height: 50px;
+	background-color: rgba(44, 62, 80,.8);
+	position: fixed;
+	padding: 20px;
+	top: 0;
+	margin-left: 0;
+}
+
